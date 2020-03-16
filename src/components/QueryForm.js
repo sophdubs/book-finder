@@ -8,11 +8,10 @@ class QueryForm extends React.Component {
             searchParam: 'null'
         }
     }
+    
     handleSearch = (e) => {
         e.preventDefault();
-        console.log('searching');
-        console.log(this.state.searchParam);
-        
+        //Make API call
     }
 
     handleClear = (e) => {
